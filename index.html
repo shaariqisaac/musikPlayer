@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./font-awesome/fontawesome-6.1.1/css/all.css">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <title>M-F Player</title>
+</head>
+
+<body>
+
+    <div class="player-container">
+
+        <div class="img-container">
+            <img src="./img/Behind Barz.jpg" />
+        </div>
+        <h2 id="title">Behind Barz</h2>
+        <h3 id="artist">Drake</h3>
+        <audio src="./music/Drake - Behind Barz.mp3"></audio>
+
+        <div class="progress-container" id="progress-container">
+
+            <div class="progress" id="progress"></div>
+
+            <div class="duration-wrapper">
+                <span id="current-time">0:00</span>
+                <span id="duration">02:48</span>
+            </div>
+        </div>
+
+        <div class="player-controls">
+            <i class="fas fa-backward" id="prev" title="Previous"></i>
+            <i class="fas fa-play main-button" id="play" title="Play"></i>
+            <i class="fas fa-forward" id="next" title="Next"></i>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
